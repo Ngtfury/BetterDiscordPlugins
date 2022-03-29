@@ -541,7 +541,7 @@ module.exports = window.hasOwnProperty("ZeresPluginLibrary") ?
 				}
 			);
 		}
-		start() {}
+		start() {buildPlugin()}
 		stop() {}
 	};
 /*@end@*/
